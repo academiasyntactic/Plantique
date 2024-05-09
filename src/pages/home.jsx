@@ -12,7 +12,7 @@ export const Home = () => {
     <>
       <Barra />
       <img src={bg} alt="" />
-      <div className="flex pt-10 pb-10 gap-5 justify-center">
+      <div className="flex pt-10 flex-wrap pb-10 gap-5 justify-center">
         <Card img={img} titulo={textos[0]} />
         <Card img={img1} titulo={textos[1]} />
         <Card img={img2} titulo={textos[2]} />
